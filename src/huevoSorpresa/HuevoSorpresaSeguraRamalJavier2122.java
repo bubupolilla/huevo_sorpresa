@@ -70,7 +70,7 @@ suficientes unidades en la tienda*/
             throw new Exception("Se necesita una cantidad de dinero positiva");
         }
         if (dinero < (unidades * getPrecio())) {
-            throw new Exception("No tiene suficiente dinero");
+            throw new Exception("No tiene usted suficiente dinero");
         }
         if (unidades <= 0) {
             throw new Exception("Es necesario indicar una cantidad positiva de huevos sorpresa");
@@ -86,7 +86,7 @@ suficientes unidades en la tienda*/
     el aumento que se indica siempre que no se sobrepase el precio máximo de venta*/
     public void aumentarPrecio(double aumento) throws Exception {
         if (aumento <= 0) {
-            throw new Exception("El aumento debe ser positivo");
+            throw new Exception("El aumento debe ser siempre positivo");
         }
         if (precio_maxSeguraRamalFcoJavier2122 < getPrecio() + aumento) {
             throw new Exception("No se puede superar el precio máximo");
