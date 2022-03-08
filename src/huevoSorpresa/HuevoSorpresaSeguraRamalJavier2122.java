@@ -67,7 +67,7 @@ public class HuevoSorpresaSeguraRamalJavier2122 {
 suficientes unidades en la tienda*/
     public void sacarHuevosSorpresas(int unidades, double dinero, String sorpresaSeguraRamalFcoJavier2122) throws Exception {
         if (dinero <= 0) {
-            throw new Exception("Se necesita una cantidad de dinero positiva");
+            throw new Exception("Se necesita una cantidad de dinero positiva amigo");
         }
         if (dinero < (unidades * getPrecio())) {
             throw new Exception("No tiene usted suficiente dinero");

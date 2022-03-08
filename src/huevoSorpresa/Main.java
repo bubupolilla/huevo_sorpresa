@@ -45,7 +45,7 @@ public class Main {
         try {
             System.out.println("Vamos a aumentar el precio de venta de un huevo sorpresa");
             h_sorpresa.aumentarPrecio(3);
-            System.out.println("El precio actual es "+h_sorpresa.obtenerPrecio()+" €");
+            System.out.println("El precio actual es "+h_sorpresa.obtenerPrecio()+" euros");
         } catch (Exception e) {
             System.out.println("Error al aumentar el precio");
         }
